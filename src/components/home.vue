@@ -4,6 +4,7 @@
     class="img1"
     src="https://images.unsplash.com/photo-1562772186-ad68d3906ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzJ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
   />
+  <h1>this is a image</h1>
 </template>
 <script>
 import Header from "./Header.vue";
