@@ -1,6 +1,6 @@
 <template>
   <img class="logo" src="../assets/loginimages/avatar.svg" />
-  <h1>Sing Up</h1>
+  <h1 class="title">Sing Up</h1>
   <div class="register">
     <input type="text" v-model="name" placeholder="Enter Name" />
     <input type="text" v-model="email" placeholder="Enter Email" />
@@ -45,4 +45,41 @@ export default {
 };
 </script>
 <style >
+body {
+  background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/90/29/tNf4aE.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.title {
+  color: azure;
+}
+.logo {
+  margin-top: 90px;
+}
+.logo {
+  width: 100px;
+}
+.register input,
+.login input {
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+  display: block;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  border: 1px solid skyblue;
+}
+.register button,
+.login button {
+  width: 320px;
+  height: 40px;
+  border: 1px solid skyblue;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(42, 101, 124);
+}
 </style>
